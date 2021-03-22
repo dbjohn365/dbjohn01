@@ -1,0 +1,46 @@
+/* Media query */
+@media screen and (min-width: 0px) and (max-width: 912px){
+    .mini-banner p.welcome{
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .mini-banner p.tagline{
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .mini-banner p.welcome, .mini-banner p.tagline{
+        position: relative;
+        top: 100px;
+        color: #fff;
+    }
+
+    main{
+        width: 80%;
+        margin: 0px auto;
+    }
+    
+    main div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 90%;
+        margin: 0px auto;
+        border: 1px solid black;
+    }
+    
+    main section.card{
+        width: 400px;
+        height: 450px;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+}
+
+/* End of media query */
